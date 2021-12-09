@@ -16,7 +16,6 @@ class WriteRestaurantsSerializer(serializers.ModelSerializer):
     user = serializers.HiddenField(default=serializers.CurrentUserDefault())
     dishes = serializers.SlugRelatedField(slug_field="name", queryset=Dishes.objects.all())
 
-
     class Meta:
         model = Restaurants
         fields = (

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page | restaurant api</title>
+    <style>
+        .header{
+            box-sizing: border-box;
+            color: lightgrey;display: flex;
+            justify-content: center;
+            height: 10vh; text-decoration: underline;
+            font-size: 30px; background-color: cornflowerblue
+        }
+        .content{
+            display: flex;
+
+
+        }
+        .content1{
+          width: 40%;
+            height: 70vh;
+                padding-left: 20px;
+            padding-right: 20px;
+            font-size: 20px;
+            padding-top: 80px;
+
+        }
+        .content2{
+            float: right;
+             width: 60%;
+            height:70vh;
+            background-color: cornflowerblue;
+            opacity: 0.8;
+                padding-left: 40px;
+
+        }
+
+    </style>
+</head>
+<body>
+ <div class="container" >
+     <div class="header"> Welcome Restaurant Api</div>
+     <div class="content">
+             <div class="content1">This is a sample server Restaurant. you can find more about Restaurant.
+             for  this sample, you can use api key special key to test the authorization filters
+             </div>
+         <div class="content2">
+             <h1>The Basic routes</h1>
+             <p>
+                 <b>Reastaurant</b>   &nbsp;&nbsp;&nbsp;   Everything about restaurant
+             </p>
+             <div style="display: flex; background-color: wheat;justify-content: space-between; height: 4vh; "><div style="background-color: blue;width: 50px; box-shadow: wheat 2px 3px 5px; padding-top: 5px"> <b>GET</b></div> <div style="padding-top: 5px">
+                 <a href="https://restaurant-api-219003365.azurewebsites.net/admin/restaurant/">/admin/restaurant</a></div> <div style="padding-right: 10px; padding-top: 5px">Find restaurant</div></div>
+              <div style="display: flex; background-color: wheat;justify-content: space-between; margin-top: 30px ; height: 4vh"><div style="background-color:  green;width: 50px; box-shadow: wheat 2px 3px 5px"> <b>POST</b></div> <div style="padding-top: 5px">
+                 <a href="https://restaurant-api-219003365.azurewebsites.net/restaurant/">/restaurant</a></div> <div style="padding-right: 10px; padding-top: 5px">post restaurant</div></div>
+             <div style="display: flex; background-color: wheat;justify-content: space-between; margin-top: 30px; height: 4vh"><div style="background-color:  red;width: 70px; box-shadow: wheat 2px 3px 5px"> <b>DELETE</b></div> <div style="padding-top: 5px">
+                 <a href="https://restaurant-api-219003365.azurewebsites.net/restaurant/1/">/restaurant/id</a></div> <div style="padding-right: 10px; padding-top: 5px">delete restaurant</div></div>
+             <div style="display: flex; background-color: wheat;justify-content: space-between; margin-top: 30px; height: 4vh"><div style="background-color:  darkorange;width: 70px; box-shadow: wheat 2px 3px 5px"> <b>UPDATE</b></div> <div style="padding-top: 5px">
+                 <a href="https://restaurant-api-219003365.azurewebsites.net/restaurant/1/">/restaurant/id</a></div> <div style="padding-right: 10px; padding-top: 5px">update restaurant</div></div>
+         </div>
+         </div>
+
+
+     </div>
+ </div>
+</body>
+</html>

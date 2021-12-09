@@ -1,4 +1,2 @@
-release:python manage.py makemigrations --no-input
-release: python manage.py migrate --no-input
 
-web: gunicorn restaurant_API.wsgi
+web: gunicorn restaurant_API.wsgi --log-file -

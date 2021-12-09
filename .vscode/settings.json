@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/b1e1997f-11a4-476c-8c87-c899991a6b1c/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/restaurant-api-219003365",
+    "appService.deploySubpath": "."
+}

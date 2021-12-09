@@ -20,4 +20,5 @@ restaurants should have a name, the name of the owner(owner can be individual or
 
 
 #### Link to Postman Collection :  https://go.postman.co/workspace/mentaringapp~48aeb8b6-25e6-401f-90a8-1e92cc7e155a/collection/16848350-a771ba78-d2f8-4b00-aafd-fab253be41c7
-#### Link to the Hosted Web API : 
+
+#### Link to the Hosted Web API : https://restaurant-api-219003365.azurewebsites.net/

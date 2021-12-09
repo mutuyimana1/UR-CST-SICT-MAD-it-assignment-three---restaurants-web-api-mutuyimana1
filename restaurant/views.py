@@ -1,4 +1,6 @@
 from django.http import HttpResponse
+from django.shortcuts import render
+
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import status
 from rest_framework.decorators import api_view
@@ -10,6 +12,10 @@ from rest_framework.viewsets import ModelViewSet
 from restaurant.models import Dishes, Restaurants
 # from restaurant.permit import IsAdminUserOrReadOnly
 from restaurant.serializer import DishesSerializer, WriteRestaurantsSerializer, ReadRestaurantsSerializer
+
+
+def home(request):
+    return render(request, 'index.html')
 
 
 class DishesModelViewSet(ModelViewSet):
